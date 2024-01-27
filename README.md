@@ -1,4 +1,6 @@
-´´´javascript
+Como hacer eventos en phaser:
+
+```javascript
     //GUI.js
     this.events.emit('change-background', { color: 'red' });
 
@@ -7,4 +9,3 @@
     GUI.events.on('change-background', ({ color }) => {
         console.log('color: ', color);
     });
-´´´
